@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(241, 241, 166);
+}
+.white_bg{
+background-color: white;
+width: 600px;
+border: 1px solid black;
+margin-bottom: 15px;
+}
+
+#red{
+border: 2px dotted red;
+color: red;
+}
+.dotted{
+
+border: 2px dotted red;
+margin: 15px;
+}
+.yellow{
+background-color: rgb(235, 235, 121);
+}
+.orange{
+background-color: rgb(229, 179, 88);
+}

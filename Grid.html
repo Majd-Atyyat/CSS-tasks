@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body{
+        background-color:#ffffcc ;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(18 , 100px);
+        grid-template-rows:repeat(15 , 100px) ;
+        width: 900px;
+        
+    }
+    .header{
+        grid-row-start:1;
+        grid-row-end:2;
+        grid-column-start:2 ;
+        grid-column-end: 15;
+        background-color: #ebde52;
+     
+    }
+    .sidebar{
+        background-color:#e3e3e3 ;
+        grid-row-start:2;
+        grid-row-end:8;
+        grid-column-start:11 ;
+        grid-column-end: 15;
+
+    }
+    .main{
+        background-color: white;
+        grid-row-start:2;
+        grid-row-end:8;
+        grid-column-start:2 ;
+        grid-column-end: 11;
+        padding: 10px;
+        text-align: left;
+    }
+.footer{
+    background-color: #696969;
+        grid-row-start:8;
+        grid-row-end:9;
+        grid-column-start:1 ;
+        grid-column-end: 18;
+        color: white;
+        text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>2-column layout</h1>
+        </div>
+        <div class="main">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quisquam, repudiandae facere autem enim consectetur commodi nulla corrupti earum expedita repellat eligendi voluptatibus odio magni. Et voluptate illo vel illum eveniet maxime adipisci esse expedita quidem iste ipsa, at eos, soluta, labore nobis. Tempora eveniet nemo velit iure commodi sint repellendus illum mollitia adipisci, optio unde similique dignissimos omnis accusamus libero in praesentium. Optio nobis consequuntur incidunt eveniet magni dolores soluta. Ab, ullam accusamus. Quisquam, quae, odit sint tempora corporis fugit ex, reiciendis eveniet quaerat cum cumque autem. Accusamus libero, maiores ut aut facere illo magnam ab eos impedit aperiam saepe illum, repellendus quae. Commodi nostrum mollitia totam ratione eius quam sit porro officiis! Iure nobis laudantium aspernatur explicabo debitis vel natus minima soluta quasi corporis quo perspiciatis ducimus molestiae, sit illum impedit ipsam fugiat dolorum temporibus minus quam expedita similique reiciendis. Molestiae pariatur, accusamus cupiditate explicabo omnis eveniet voluptatum ab itaque animi provident delectus labore eligendi illo rerum natus autem nostrum architecto similique quis assumenda neque facilis modi optio fugiat. Accusamus id fuga, iusto tempora cumque nulla atque quis illum cupiditate eius placeat corporis qui voluptatem autem dolorem eum! Saepe commodi repudiandae dolores, doloribus neque rem accusamus nulla nisi?</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos provident quae ipsam ducimus obcaecati animi, quisquam delectus, molestias odit illum, illo atque. Exercitationem laborum fugiat ad impedit nobis voluptatibus quam quia, officiis veritatis veniam placeat nihil praesentium ut amet error pariatur! Tempora vero sed eius, tenetur sint quam perferendis illum optio provident inventore aliquam quo autem nostrum cumque eaque ex incidunt odio quisquam libero maiores aut ducimus asperiores repudiandae! Illum dolor similique porro sit? Ullam laboriosam temporibus sapiente ipsam accusamus sunt quasi iusto, fuga corporis voluptatem et est eaque neque porro rem minima repellat asperiores! Ad, id dolorum commodi similique officia cumque recusandae soluta, dolor non quas animi dicta. Impedit, illo voluptate assumenda perferendis repellat eveniet cumque nulla rerum nesciunt harum itaque cum tempora, id magni libero facilis magnam laudantium distinctio. Animi molestiae optio in laudantium numquam sunt nesciunt perspiciatis laborum magni maiores fuga tempore ut, nulla esse deserunt quo amet, cumque eius odio? Soluta debitis fuga repellendus sunt modi.</p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nam quos illum. Sed et perferendis quam amet omnis aut placeat deleniti totam, reprehenderit neque sit reiciendis facilis rem vel! Doloremque optio consectetur in illo? Asperiores accusamus aliquam eos quo, esse dolores, odit ea quisquam rem consequatur reiciendis dolorum, distinctio consequuntur explicabo beatae corrupti sequi. Totam iusto distinctio nam repellendus repellat earum illo vel eius deleniti iure quisquam eaque qui, maiores laboriosam asperiores vitae blanditiis adipisci pariatur animi reprehenderit tenetur inventore! Officia voluptas reprehenderit assumenda voluptates! Commodi cupiditate voluptate suscipit, ad voluptatibus non totam reiciendis veniam eius consequatur, corporis facilis quaerat?</p>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li>
+                    Item #1
+
+                </li>
+                <li> Item #2
+                </li>
+                <li> Item #3</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p> Lorem ipsum dolor sit amet.</p>
+
+        </div>
+    </div>
+</body>
+</html>
